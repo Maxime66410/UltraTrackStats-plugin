@@ -1,0 +1,5 @@
+listeners:
+  enabled: false
+  track-block-break: true
+  track-block-place: true
+  track-mob-kill: true

@@ -1,0 +1,12 @@
+name: UltraTrackStats
+version: 1.0.0
+main: org.FurranyStudio.UltraTrackStats.UltraTrackStats
+api-version: '1.21.4'
+author: FurranyStudio (Maxime66410)
+description: A centralized and open player stats tracking system (kills, blocks broken, blocks placed, and more) for use by any plugin.
+
+commands:
+  ultratackstats:
+    description: Gestion du plugin UltraTrackStats.
+    usage: /ultratackstats reload
+    aliases: [uts]
