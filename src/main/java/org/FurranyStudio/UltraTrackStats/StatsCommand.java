@@ -16,12 +16,12 @@ public class StatsCommand implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (args.length == 1 && args[0].equalsIgnoreCase("reload")) {
             if (!sender.hasPermission("ultratackstats.reload")) {
-                sender.sendMessage("§cVous n'avez pas la permission.");
+                sender.sendMessage("§cYou don't have permission to do this.");
                 return true;
             }
 
             main.reload();
-            sender.sendMessage("§a[UltraTrackStats] Plugin rechargé avec succès !");
+            sender.sendMessage("§a[UltraTrackStats] Plugin reloaded successfully!");
             return true;
         }
 
