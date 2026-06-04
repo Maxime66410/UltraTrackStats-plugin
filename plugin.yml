@@ -6,7 +6,7 @@ author: FurranyStudio (Maxime66410)
 description: A centralized and open player stats tracking system (kills, blocks broken, blocks placed, and more) for use by any plugin.
 
 commands:
-  ultratrackstats:
-    description: Manage the UltraTrackStats plugin.
-    usage: /ultratrackstats reload
+  ultratackstats:
+    description: Gestion du plugin UltraTrackStats.
+    usage: /ultratackstats reload
     aliases: [uts]

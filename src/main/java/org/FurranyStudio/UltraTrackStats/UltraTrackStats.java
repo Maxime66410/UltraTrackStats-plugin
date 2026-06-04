@@ -27,7 +27,7 @@ public class UltraTrackStats extends JavaPlugin {
             this.database = new StatsDatabase(this);
             this.api = new StatsAPI(this);
 
-            Objects.requireNonNull(getCommand("ultratackstats")).setExecutor(new StatsCommand(this));
+            Objects.requireNonNull(getCommand("ultratrackstats")).setExecutor(new StatsCommand(this));
 
             registerListeners();
 
